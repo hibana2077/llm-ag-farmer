@@ -8,3 +8,5 @@ import time
 import os
 import yaml
 import streamlit as st
+
+config = yaml.safe_load(open("config.yaml"))
