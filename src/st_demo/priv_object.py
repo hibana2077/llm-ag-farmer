@@ -2,7 +2,7 @@
 Author: hibana2077 hibana2077@gmail.com
 Date: 2024-05-06 11:54:17
 LastEditors: hibana2077 hibana2077@gmail.com
-LastEditTime: 2024-05-08 13:59:27
+LastEditTime: 2024-05-13 17:04:22
 FilePath: \llm-ag-farmer\src\st_demo\priv_object.py
 Description: This file is for model output parsing
 '''
@@ -19,7 +19,6 @@ class EventStatus(str, Enum):
     COMPLETED = 'Completed'
     CANCELED = 'Canceled'
     ERROR = 'Error'
-
 class FunctionCall(str, Enum):
     PLANTING_SCHEDULE = 'planting_schedule'
     STATUS_CHECK = 'status_check'
