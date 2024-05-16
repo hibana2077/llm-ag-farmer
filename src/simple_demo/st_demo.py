@@ -2,7 +2,7 @@
 Author: hibana2077 hibana2077@gmail.com
 Date: 2024-05-13 11:02:01
 LastEditors: hibana2077 hibana2077@gmail.com
-LastEditTime: 2024-05-13 11:34:20
+LastEditTime: 2024-05-14 12:25:04
 FilePath: \llm-ag-farmer\src\simple_demo\st_demo.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
@@ -11,6 +11,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages.ai import AIMessage
 from langchain_core.messages.human import HumanMessage
+from langchain_core.messages.system import SystemMessage
 import os
 import yaml
 import streamlit as st
